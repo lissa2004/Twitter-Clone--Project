@@ -119,7 +119,7 @@ border-top-right-radius: 9999px;
 
 .posts-section {
     cursor: pointer;
-    width:50%;
+    width:620px;
     height:50%;
     margin-left:300px ;
 }
@@ -141,7 +141,7 @@ border-top-right-radius: 9999px;
     align-items: center;
     position: fixed;
     height: 56px;
-    width: 139px;
+    width: 618px;
     color: #606164;
     border-bottom: 1px solid #202020;
 }
@@ -151,6 +151,7 @@ border-top-right-radius: 9999px;
  height: 56px;
  align-items: center;
  justify-content: space-between;
+ margin-left: 40px;
 
 }
 
@@ -159,6 +160,7 @@ border-top-right-radius: 9999px;
     justify-content: space-between;
     height: 56px ;
     width: 450px;
+    margin-left: 30px;
 }
 .following:hover{
     background: #202020;
@@ -321,6 +323,7 @@ height: 25px;
 }
 .top-details{
     display: flex;
+    margin-left: 10px;
 }
 .posts-pictures{
     display: flex;
@@ -328,21 +331,22 @@ height: 25px;
     border-right: 1px solid #202020;
     border-bottom: 1px solid #202020;
     width: 100%;
-    height: 320px;
-
+    height: 390px;
     
 }
 
 
 .posts-pictures img{
-    width: 90%;
+    display: flex;
+    width: 85%;
     height: 290px;
-    margin-left: 10px;
-    border-radius: 5%;  
+    border-radius: 5%; 
+    margin-left: 70px; 
+
 }
 
 
- .tranding{
+ .trending{
     background: none;
     height:100%;
     width: 100%;
@@ -401,7 +405,7 @@ height: 25px;
     background: #202020;
     
 }
-.tranding-searches{
+.trending-searches{
     display: flex;
     height:450px;
     width:333px ;
@@ -411,7 +415,8 @@ height: 25px;
     border-radius: 5%;
    
 }
-.subscribtion{
+.subscription{
+    display: flex;
     margin-top: 16px;
     margin-left: 35px;
     margin-bottom: 16px;
@@ -420,9 +425,10 @@ height: 25px;
     background:#202020;
     border-radius: 8%;
 }
-.subscribtion-premium{
+.subscription p{
+    display: flex;
     background: none;
-    width:329px;
+     align-items: center;
 }
 .followings{
     margin-top: 16px;
