@@ -1,0 +1,262 @@
+@media (max-width:480px) {
+    .mainbody{
+        height:100vh;
+        display: flex;
+        background: black;
+     
+    }
+    .posts-section {
+        background: black;
+        cursor: pointer;
+        height:400px;
+        width: 900px;
+        margin-left:300px ;
+    }
+    .follow-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        height: 56px;
+        width: 618px;
+        color: #606164;
+        border-bottom: 1px solid #202020;
+    }
+    .write-post-category{
+        border: none;
+        display: flex;
+        flex-direction:  column;
+        justify-content: left;
+        border-right:1px solid #202020;
+        width:618px;
+        height:150px;
+    }
+    .show-posts{
+        border-top: 1px solid #202020 ;
+        border-right: 1px solid #202020;
+        border-right:1px solid #202020;
+        border-bottom:1px solid #202020;
+        width:618px;
+        height: 50px;
+    }
+    .posts{
+        display: flex;
+        border-bottom:1px solid #202020 ;
+        border-right: 1px solid #202020;
+        padding: 10px 15px;
+    }
+    .trending{
+        background: black;
+        height:900px;
+        width: 100%;
+    }
+    .search{
+        display: flex;
+        width: 500px;
+        margin: 0px;
+        height: 100%;
+        border-bottom-right-radius: 9999px;
+        border-top-right-radius: 9999px;
+    }
+    .trends-for-you{
+        height:530px;
+        width:320px ;
+        margin-top: 10px;
+        margin-left: 30px;
+        background: #202020;
+        border-radius: 5%;
+    }
+    .who-to-follow{ 
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 317px;
+        height:285px ;
+        background: #202020;
+        border-radius: 8%;
+    }
+    .trending-footer{
+        background: none;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width:768px) and (min-width:480px){
+
+.mainbody{
+    height:100vh;
+    display: flex;
+    background: black;
+ 
+}
+.posts-section {
+    background: black;
+    cursor: pointer;
+    height:400px;
+    width: 900px;
+    margin-left:300px ;
+}
+.follow-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 56px;
+    width: 618px;
+    color: #606164;
+    border-bottom: 1px solid #202020;
+}
+.write-post-category{
+    border: none;
+    display: flex;
+    flex-direction:  column;
+    justify-content: left;
+    border-right:1px solid #202020;
+    width:618px;
+    height:150px;
+}
+.show-posts{
+    border-top: 1px solid #202020 ;
+    border-right: 1px solid #202020;
+    border-right:1px solid #202020;
+    border-bottom:1px solid #202020;
+    width:618px;
+    height: 50px;
+}
+.posts{
+    display: flex;
+    border-bottom:1px solid #202020 ;
+    border-right: 1px solid #202020;
+    padding: 10px 15px;
+}
+.trending{
+    background: black;
+    height:900px;
+    width: 100%;
+}
+.search{
+    display: flex;
+    width: 500px;
+    margin: 0px;
+    height: 100%;
+    border-bottom-right-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+.trends-for-you{
+    height:530px;
+    width:320px ;
+    margin-top: 10px;
+    margin-left: 30px;
+    background: #202020;
+    border-radius: 5%;
+}
+.who-to-follow{ 
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 317px;
+    height:285px ;
+    background: #202020;
+    border-radius: 8%;
+}
+.trending-footer{
+    background: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+    
+}
+
+@media (max-width:1200px) and (min-width:768px){
+    .mainbody{
+        height:100vh;
+        display: flex;
+        background: black;
+     
+    }
+    .posts-section {
+        background: black;
+        cursor: pointer;
+        height:400px;
+        width: 900px;
+        margin-left:300px ;
+    }
+    .follow-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        height: 56px;
+        width: 618px;
+        color: #606164;
+        border-bottom: 1px solid #202020;
+    }
+    .write-post-category{
+        border: none;
+        display: flex;
+        flex-direction:  column;
+        justify-content: left;
+        border-right:1px solid #202020;
+        width:618px;
+        height:150px;
+    }
+    .show-posts{
+        border-top: 1px solid #202020 ;
+        border-right: 1px solid #202020;
+        border-right:1px solid #202020;
+        border-bottom:1px solid #202020;
+        width:618px;
+        height: 50px;
+    }
+    .posts{
+        display: flex;
+        border-bottom:1px solid #202020 ;
+        border-right: 1px solid #202020;
+        padding: 10px 15px;
+    }
+    .trending{
+        background: black;
+        height:900px;
+        width: 100%;
+    }
+    .search{
+        display: flex;
+        width: 500px;
+        margin: 0px;
+        height: 100%;
+        border-bottom-right-radius: 9999px;
+        border-top-right-radius: 9999px;
+    }
+    .trends-for-you{
+        height:530px;
+        width:320px ;
+        margin-top: 10px;
+        margin-left: 30px;
+        background: #202020;
+        border-radius: 5%;
+    }
+    .who-to-follow{ 
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 317px;
+        height:285px ;
+        background: #202020;
+        border-radius: 8%;
+    }
+    .trending-footer{
+        background: none;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
