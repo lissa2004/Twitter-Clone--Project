@@ -13,12 +13,16 @@ box-sizing: border-box;
 .column{
     float: left;
 }
-.left, .right {
-    width: 25%;
+.left {
+    width: 20%;
+    position: fixed;
+    top: 0;
 }
-.middle{
-    width: 50%;
+
+.middle, .right{
+   width: 40%;
 }
+
 .sidebar{
 height: 100vh;
 margin: 0px;
@@ -33,6 +37,7 @@ top:0;
 }
 .logo{
     width: 100px;
+    margin-left: 40px;
 }
 .post-button {
     display: flex;
@@ -40,12 +45,13 @@ top:0;
     border: none;
     background: #1d9bf0;
     color: white;
-    font-size:20px ;
-    width:80% ;
+    font-size:17px ;
+    font-weight: 500;
+    width:65% ;
     justify-content: center;
     margin-top: 10px;
-    margin-left:10px ;
-    height: 45px;
+    margin-left:58px ;
+    height: 50px;
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
     border-top-left-radius: 9999px;
@@ -59,15 +65,17 @@ top:0;
     align-items: center;
     color: #ffffff;
     cursor: pointer;
-    height: 55px;
+    height: 48px;
     font-size: 20px;
     margin-right: 20px;
+    margin-left: 50px;
+    padding: 10px 20px 10px 10px ;
     font-weight: 500px;
 }
 .category i{
     background:none ;
     font-size: 30px;
-    padding: 20px;
+    margin-right: 20px;
 }
 .category:hover{
     background:#16181c;
@@ -121,7 +129,10 @@ margin-left: 10px;
 
 
 
-
+.main-container{
+    margin-left: 261px;
+    width: 650px;
+}
 .posts-section {
     background: black;
     cursor: pointer;
@@ -196,23 +207,28 @@ margin-left: 10px;
     width:618px;
     height:150px;
 }
+.write-post-category span{
+    margin: 0px;
+    padding: 5px;
+    width: 25px;
+    height: 18px;
+}
 .posts-items {
     width:618px;
     height:140px;
     border-right:1px solid #202020;
 }
-.write-post-category i{
-    border: none;
-    margin: 40px 10px 10px 20px;
-    font-size: 35px;
-    background: none;
-
-}
-.post-icons{
+.post-icons {
     background: none;
     display: flex;
     align-items: center;
     width: 0px;
+}
+.post-icons i{
+    border: none;
+    margin: 40px 10px 10px 20px;
+    font-size: 35px;
+    background: none;
 }
 .write-post-category input{
     border: none;
@@ -230,12 +246,13 @@ margin-left: 10px;
     font-size:18px ;
     color:#1d9bf0;
     height: 18px;
-    width: 25px;
-    margin: 20px 10px 20px 30px; 
+    width: 25px; 
 }
 .write-post-category-icons{
     background: none;
-    margin-top: 80px;
+    padding: 10px;
+    width: 400px;
+    margin-left: 50px;
 }
 .write-post-category-icons i:hover{
 background: lightskyblue;
@@ -274,13 +291,16 @@ height: 25px;
     margin-bottom: 5px;
 
     
-}.post-headings{
+}
+.post-headings{
     display: flex;
 }
-.post-content{
+.posts-content p{
     display: flex;
     font-size: 14px;
     font-weight: 400;
+    width: 400px;
+    margin-bottom: 10px;
 }
 .post-email{
    font-size: 15px;
@@ -298,7 +318,7 @@ height: 25px;
     margin-bottom: 5px;
 }
 .post-picture img{
-    width: 100%;
+    width: 450px;
     height: 250px;
     border-radius: 15px;
     margin-top: 10px;
@@ -309,17 +329,19 @@ height: 25px;
     font-size: 18px;
     font-weight: 400px;
     color: #606164;
-    padding: 10px 30px 10px 30px;
+    margin-right:30px ;
 }
-
-
-
-
-
+.posts-icons{
+   width: 470px;
+   margin-left: 65px;
+   margin-top: 10px;
+}
+.posts-icon span{
+ width:10px ;
+}
  .trending{
-    background: black;
+    background: none;
     height:900px;
-
 }
 .search-section{
     display: flex;
@@ -433,7 +455,7 @@ height: 25px;
 }
 .who-to-follow-heading{
     background: none;
-    padding: 10px 0px 0px 20px;
+    padding: 10px 0px 10px 20px;
     font-size: 20px;
     font-weight: 500;
     height:30px;
@@ -442,7 +464,8 @@ height: 25px;
     display: flex;
     align-items: center;
     background: none;
-    padding: 15px 10px;
+    padding: 10px 0px 0px 20px;
+    height: 65px;
 }
 .who-to-follow-section{
     background: none;
@@ -482,6 +505,7 @@ border-radius: 15px;
 padding: 5px;
 min-width: 67px;
 text-align: center;
+margin-right: 15px;
 
 }
 .follow-item:hover {
@@ -490,6 +514,9 @@ text-align: center;
 }
 .follow-more{
     background: none;
+    width:107px;
+    padding: 10px 0px 0px 20px ;
+    color: #1d9bf0;
 }
 .trending-footer{
     background: none;
