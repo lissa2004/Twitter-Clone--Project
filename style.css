@@ -9,27 +9,28 @@ padding: 0px;
 box-sizing: border-box;
 }
 
-
-.column{
+.column {
     float: left;
 }
 .left {
+    width:25%;
+}
+.right{
     width: 20%;
-    position: fixed;
-    top: 0;
+}
+.middle{
+    width: 55%;
 }
 
-.middle, .right{
-   width: 40%;
-}
 
 .sidebar{
 height: 100vh;
 margin: 0px;
-position: static;
-border-right: 1px solid #202020;
+position: fixed;
 top:0;
+border-right: 1px solid #202020;
 }
+
 .logo img{
     width: 70px;
     font-size: 30px;
@@ -57,20 +58,18 @@ top:0;
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
 }
-.nav-items{
-    height: 100% ;
-}
 .category{
     display: flex;
     align-items: center;
     color: #ffffff;
     cursor: pointer;
-    height: 48px;
+    height: 55px;
     font-size: 20px;
     margin-right: 20px;
     margin-left: 50px;
     padding: 10px 20px 10px 10px ;
     font-weight: 500px;
+    width: 230px;
 }
 .category i{
     background:none ;
@@ -86,7 +85,7 @@ top:0;
 } 
 .sidebar-footer{
 display: flex;
-height: 67px;
+height: 80px;
 width: 45px;
 margin-left: 30px ; 
 margin-top: 30px;
@@ -95,8 +94,9 @@ margin-top: 30px;
 display: flex;
 background:none ;
 align-items: center;
-height: 35px;
+height: 45px;
 width: 0px;
+margin-left: 30px;
 font-weight:500;
 font-size: 15px;
 }
@@ -119,10 +119,10 @@ display: flex;
 background:none ;
 font-size: 15px;
 color: #202020;
-height:48px;
+height:50px;
 align-items: flex-end;
 justify-content: flex-start;
-margin-left: 10px;
+margin-left: 34px;
 
 }
 
@@ -130,12 +130,12 @@ margin-left: 10px;
 
 
 .main-container{
-    margin-left: 261px;
-    width: 650px;
+margin-left:300px ;
 }
 .posts-section {
     background: black;
     cursor: pointer;
+    width: 618px;
 }
 .top-items {
     display: flex;
@@ -143,8 +143,7 @@ margin-left: 10px;
     justify-content: space-between;
     height: 56px;
     width: 618px;
-    border-bottom: 1px solid #202020;
-    border-right: 1px solid #202020;
+   
 }
 .follow-text {
     display: flex;
@@ -152,11 +151,13 @@ margin-left: 10px;
     align-items: center;
     height: 56px;
     width: 618px;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
     color: #606164;
-    position: fixed;
-    top:0;
     border-bottom: 1px solid #202020;
     border-right: 1px solid #202020;
+    border-left: 1px solid #202020;
 }
 .follow-text span {
  display: flex;
@@ -190,6 +191,7 @@ margin-left: 10px;
     border-bottom:1px solid #202020;
     width:618px;
     height: 50px;
+    cursor: pointer;
 }
 .show-posts span{
     color:#1d9bf0;
@@ -206,6 +208,7 @@ margin-left: 10px;
     border-right:1px solid #202020;
     width:618px;
     height:150px;
+    cursor: pointer;
 }
 .write-post-category span{
     margin: 0px;
@@ -260,9 +263,6 @@ opacity: 45%;
 border-radius: 50%;
 height: 25px;
 }      
-.posts-section{
-    width:216px;
-}
 .posts{
     width: 618px;
     border-bottom:1px solid #202020 ;
@@ -329,16 +329,19 @@ height: 25px;
     font-size: 18px;
     font-weight: 400px;
     color: #606164;
-    margin-right:30px ;
+    margin-right:55px ;
 }
 .posts-icons{
    width: 470px;
-   margin-left: 65px;
    margin-top: 10px;
+   margin-left: 5px;
 }
 .posts-icon span{
  width:10px ;
 }
+
+
+
  .trending{
     background: none;
     height:900px;
@@ -402,6 +405,7 @@ height: 25px;
     margin-left: 30px;
     background: #202020;
     border-radius: 5%;
+    cursor: pointer;
    
 }
 .trends-heading{
@@ -452,6 +456,7 @@ height: 25px;
     height:285px ;
     background: #202020;
     border-radius: 8%;
+    cursor: pointer;
 }
 .who-to-follow-heading{
     background: none;
